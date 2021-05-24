@@ -1,0 +1,39 @@
+.about_h1 {
+  font-size: 54px;
+  text-transform: none;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.about_img {
+  width: 80%;
+  margin: auto;
+}
+
+.about_img > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.about_text {
+  padding: 20px;
+  padding-left: 10%;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.about_text > h2 {
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.about_side {
+  padding-left: 4%;
+  font-weight: 200;
+}
+
+@media (max-width: 530px) {
+  .about_text > h2 {
+    font-size: 24px;
+  }
+}
